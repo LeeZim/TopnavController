@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF03C4F11CF2E11700BB5E88 /* ChannelList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF03C4F01CF2E11700BB5E88 /* ChannelList.plist */; };
+		CF4A3C351CE5E23B00DAF79D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4A3C341CE5E23B00DAF79D /* main.m */; };
+		CF4A3C381CE5E23B00DAF79D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4A3C371CE5E23B00DAF79D /* AppDelegate.m */; };
+		CF4A3C401CE5E23B00DAF79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4A3C3F1CE5E23B00DAF79D /* Assets.xcassets */; };
+		CF4A3C431CE5E23B00DAF79D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4A3C411CE5E23B00DAF79D /* LaunchScreen.storyboard */; };
+		CF4A3C501CE5E45300DAF79D /* LZMTopNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4A3C4F1CE5E45300DAF79D /* LZMTopNavView.m */; };
+		CFBAF07D1CF2F17D007BFD7A /* LZMTopEditHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBAF07C1CF2F17D007BFD7A /* LZMTopEditHeaderView.m */; };
+		CFEA0EBB1CF07279002D8E89 /* LZMTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEA0EBA1CF07279002D8E89 /* LZMTopViewController.m */; };
+		CFEA0EBE1CF0751D002D8E89 /* LZMButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEA0EBD1CF0751D002D8E89 /* LZMButtonGroup.m */; };
+		CFEA0EC11CF07935002D8E89 /* LZMTopEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEA0EC01CF07935002D8E89 /* LZMTopEditViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF03C4F01CF2E11700BB5E88 /* ChannelList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ChannelList.plist; sourceTree = "<group>"; };
+		CF4A3C301CE5E23B00DAF79D /* TopnavController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopnavController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4A3C341CE5E23B00DAF79D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF4A3C361CE5E23B00DAF79D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF4A3C371CE5E23B00DAF79D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF4A3C3F1CE5E23B00DAF79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF4A3C421CE5E23B00DAF79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF4A3C441CE5E23B00DAF79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4A3C4E1CE5E45300DAF79D /* LZMTopNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMTopNavView.h; sourceTree = "<group>"; };
+		CF4A3C4F1CE5E45300DAF79D /* LZMTopNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMTopNavView.m; sourceTree = "<group>"; };
+		CFBAF07B1CF2F17D007BFD7A /* LZMTopEditHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMTopEditHeaderView.h; sourceTree = "<group>"; };
+		CFBAF07C1CF2F17D007BFD7A /* LZMTopEditHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMTopEditHeaderView.m; sourceTree = "<group>"; };
+		CFEA0EB91CF07279002D8E89 /* LZMTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMTopViewController.h; sourceTree = "<group>"; };
+		CFEA0EBA1CF07279002D8E89 /* LZMTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMTopViewController.m; sourceTree = "<group>"; };
+		CFEA0EBC1CF0751D002D8E89 /* LZMButtonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMButtonGroup.h; sourceTree = "<group>"; };
+		CFEA0EBD1CF0751D002D8E89 /* LZMButtonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMButtonGroup.m; sourceTree = "<group>"; };
+		CFEA0EBF1CF07935002D8E89 /* LZMTopEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMTopEditViewController.h; sourceTree = "<group>"; };
+		CFEA0EC01CF07935002D8E89 /* LZMTopEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMTopEditViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF4A3C2D1CE5E23B00DAF79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF4A3C271CE5E23B00DAF79D = {
+			isa = PBXGroup;
+			children = (
+				CF4A3C321CE5E23B00DAF79D /* TopnavController */,
+				CF4A3C311CE5E23B00DAF79D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4A3C311CE5E23B00DAF79D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4A3C301CE5E23B00DAF79D /* TopnavController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4A3C321CE5E23B00DAF79D /* TopnavController */ = {
+			isa = PBXGroup;
+			children = (
+				CF4A3C4A1CE5E35E00DAF79D /* TopNavController */,
+				CF4A3C361CE5E23B00DAF79D /* AppDelegate.h */,
+				CF4A3C371CE5E23B00DAF79D /* AppDelegate.m */,
+				CF4A3C3F1CE5E23B00DAF79D /* Assets.xcassets */,
+				CF4A3C411CE5E23B00DAF79D /* LaunchScreen.storyboard */,
+				CFEA0EBC1CF0751D002D8E89 /* LZMButtonGroup.h */,
+				CFEA0EBD1CF0751D002D8E89 /* LZMButtonGroup.m */,
+				CF4A3C441CE5E23B00DAF79D /* Info.plist */,
+				CF4A3C331CE5E23B00DAF79D /* Supporting Files */,
+				CF03C4F01CF2E11700BB5E88 /* ChannelList.plist */,
+			);
+			path = TopnavController;
+			sourceTree = "<group>";
+		};
+		CF4A3C331CE5E23B00DAF79D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF4A3C341CE5E23B00DAF79D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF4A3C4A1CE5E35E00DAF79D /* TopNavController */ = {
+			isa = PBXGroup;
+			children = (
+				CFBAF07E1CF300EA007BFD7A /* View */,
+				CFEA0EB91CF07279002D8E89 /* LZMTopViewController.h */,
+				CFEA0EBA1CF07279002D8E89 /* LZMTopViewController.m */,
+			);
+			path = TopNavController;
+			sourceTree = "<group>";
+		};
+		CFBAF07E1CF300EA007BFD7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF4A3C4E1CE5E45300DAF79D /* LZMTopNavView.h */,
+				CF4A3C4F1CE5E45300DAF79D /* LZMTopNavView.m */,
+				CFEA0EBF1CF07935002D8E89 /* LZMTopEditViewController.h */,
+				CFEA0EC01CF07935002D8E89 /* LZMTopEditViewController.m */,
+				CFBAF07B1CF2F17D007BFD7A /* LZMTopEditHeaderView.h */,
+				CFBAF07C1CF2F17D007BFD7A /* LZMTopEditHeaderView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4A3C2F1CE5E23B00DAF79D /* TopnavController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4A3C471CE5E23B00DAF79D /* Build configuration list for PBXNativeTarget "TopnavController" */;
+			buildPhases = (
+				CF4A3C2C1CE5E23B00DAF79D /* Sources */,
+				CF4A3C2D1CE5E23B00DAF79D /* Frameworks */,
+				CF4A3C2E1CE5E23B00DAF79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopnavController;
+			productName = TopnavController;
+			productReference = CF4A3C301CE5E23B00DAF79D /* TopnavController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4A3C281CE5E23B00DAF79D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lizeming;
+				TargetAttributes = {
+					CF4A3C2F1CE5E23B00DAF79D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5HS8MRC5WQ;
+					};
+				};
+			};
+			buildConfigurationList = CF4A3C2B1CE5E23B00DAF79D /* Build configuration list for PBXProject "TopnavController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF4A3C271CE5E23B00DAF79D;
+			productRefGroup = CF4A3C311CE5E23B00DAF79D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4A3C2F1CE5E23B00DAF79D /* TopnavController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF4A3C2E1CE5E23B00DAF79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4A3C431CE5E23B00DAF79D /* LaunchScreen.storyboard in Resources */,
+				CF4A3C401CE5E23B00DAF79D /* Assets.xcassets in Resources */,
+				CF03C4F11CF2E11700BB5E88 /* ChannelList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF4A3C2C1CE5E23B00DAF79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEA0EC11CF07935002D8E89 /* LZMTopEditViewController.m in Sources */,
+				CFEA0EBE1CF0751D002D8E89 /* LZMButtonGroup.m in Sources */,
+				CF4A3C501CE5E45300DAF79D /* LZMTopNavView.m in Sources */,
+				CF4A3C381CE5E23B00DAF79D /* AppDelegate.m in Sources */,
+				CF4A3C351CE5E23B00DAF79D /* main.m in Sources */,
+				CFEA0EBB1CF07279002D8E89 /* LZMTopViewController.m in Sources */,
+				CFBAF07D1CF2F17D007BFD7A /* LZMTopEditHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF4A3C411CE5E23B00DAF79D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4A3C421CE5E23B00DAF79D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF4A3C451CE5E23B00DAF79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF4A3C461CE5E23B00DAF79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF4A3C481CE5E23B00DAF79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TopnavController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzm.TopnavController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CF4A3C491CE5E23B00DAF79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TopnavController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzm.TopnavController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF4A3C2B1CE5E23B00DAF79D /* Build configuration list for PBXProject "TopnavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4A3C451CE5E23B00DAF79D /* Debug */,
+				CF4A3C461CE5E23B00DAF79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4A3C471CE5E23B00DAF79D /* Build configuration list for PBXNativeTarget "TopnavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4A3C481CE5E23B00DAF79D /* Debug */,
+				CF4A3C491CE5E23B00DAF79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF4A3C281CE5E23B00DAF79D /* Project object */;
+}
